@@ -1,0 +1,187 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Kulim Park','Oswald', 'Kulim Park';
+    line-height: 1.4;
+}
+
+p {
+    margin: 0.75rem 0;
+    
+}
+
+.logo {
+    font-size: 1rem;
+    color: black;
+    border: 2px solid white;
+    padding: 3px 10px;
+}
+
+.headingLarge {
+    border: 5px solid white;
+    padding:1rem;
+    font-size: 4rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.1;
+}
+
+.headingMedium {
+    text-align:center;
+    font-size: 2rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.1;
+}
+ 
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 0 2rem;
+    overflow: hidden;
+}
+
+.btn {
+    display: flex;
+    color: white;
+    padding:  0.5rem 2rem;
+    background-color: gray;
+    border: none;
+    font-weight: bold;
+}
+.btn:hover {
+    background-color: black;
+}
+
+.py-1 {padding:1.5rem 0;}
+.py-2 {padding:2rem 0;}
+.py-3 {padding:3rem 0;}
+
+
+.wtxt {
+    color:white;
+}
+#navbar {
+    display:flex;
+    position: sticky;
+    top:0;
+    background: #333;
+    justify-content: space-between;
+    z-index: 1;
+    padding: 1rem;
+}
+
+#navbar ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+#navbar ul li a {
+    padding:0.75rem;
+    text-decoration: none;
+    color:white;
+    margin: 0 0.25rem;
+}
+
+#navbar ul li a:hover {
+    background:#0a3d62;
+    border-radius: 5px;
+}
+
+#showcase {
+    background: #333 url('img/codeShort.jpg') no-repeat center center/cover;
+    height: 100vh;
+    color: white;
+}
+
+#showcase .showcase-content {
+    display: flex;;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2 rem;
+    /*overlay*/
+    position: sticky;
+    top: 0px;
+    left:0;
+    right:0;
+    bottom:0;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.4);
+}
+.items {
+    display: flex;
+    padding:1rem;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.item {
+    display: 1;
+    text-align: center;
+    padding: 1rem;
+    background-color:gray;
+    margin:1rem;
+    border-radius: 15px;
+    max-width: 200px;
+
+}
+
+.item img {
+    max-width: 10rem;
+    border-radius: 50%;
+    margin-bottom: 2rem;
+}
+
+#znanja {
+    background-color: #333;
+    color: white;
+}
+
+/*kurikulum */
+#curiculum {
+    display: flex;
+    background-color: #333;
+}
+#curiculum div {
+    flex:1;
+}
+.slikaPi {
+    background: url('img/rPi.jpg')
+    no-repeat center center/cover;
+}
+.txtcuriculum  {
+    background-color: gray;
+    padding:1rem;
+
+}
+
+
+
+.curiculumList{
+    list-style: none;
+}
+
+.curiculumList > li {
+    border-bottom: white dotted 1px;
+}
+
+
+/* contactiraj me */
+#contact {
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    width: 100%;
+}
+.form  #e-mail {
+    width: 100%;
+}
+.form  #message{
+ width: 100%;
+ height: 100px;
+}

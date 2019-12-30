@@ -1,0 +1,44 @@
+@media(max-width: 1400px) {
+    #navbar {
+    text-align: center;
+    display:block;
+    height: 120px;
+    align-self: center;
+    }
+
+    #navbar ul {
+        display: block;
+    }
+   .logo {
+       border:none;
+       border-bottom: 2px solid white;
+
+    }
+    #curiculum {
+        display:block;
+    }
+    .txtcuriculum{
+        display:block;
+    }
+    .slikaPi {
+        display: block;
+        width: 100vw;
+        height: 30vh;
+    }
+    .headingLarge {
+        font-size: 1.5rem;
+    }
+
+  .items {
+        display: block;
+    }
+    #navbar {
+        padding: 0;
+    }
+    #navbar ul li a {
+        padding:0.1rem;
+    }
+    .container {
+        padding:0;
+    }
+}
